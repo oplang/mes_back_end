@@ -1,7 +1,7 @@
 {
   "apps": {
-      "name": "pm2-test-server",
-      "script": "bin/wwwclg",
+      "name": "mes_back_end",
+      "script": "bin/www",
       "watch": true,
       "ignore_watch": [
           "node_modules",

@@ -1,0 +1,6 @@
+2020-03-25 16:49:46:   <-- GET /
+2020-03-25 16:49:46:   xxx GET / 500 12ms -
+2020-03-25 16:50:04:   <-- GET /api/sys_user/list
+2020-03-25 16:50:04: SELECT * FROM sys_user WHERE is_valid = 1;
+2020-03-25 16:50:04: GET /api/sys_user/list - 24ms
+2020-03-25 16:50:04:   --> GET /api/sys_user/list 200 27ms 829b

@@ -22,7 +22,6 @@ const get = async (tableName, query) => {
   }
 
   sql += 'is_valid = 1;';
-  console.log(sql);
   const result = await exec(sql);
   return result.map(item => getCamelPropObj(item));
 }
